@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    #数据源基本配置
+    username: Zjf
+    password: zjf123456
+    url: jdbc:mysql://127.0.0.1:3306/mybatis?useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      #更新或者创建数据表结构
+      ddl-auto: update
+    #控制台输出sql
+    show-sql: true
